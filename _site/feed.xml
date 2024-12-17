@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-17T12:38:41-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Code Did It</title><subtitle>Personal website and blog showcasing my projects and thoughts</subtitle><entry><title type="html">Welcome to My Development Blog</title><link href="http://localhost:4000/blog/2024/01/01/welcome-post/" rel="alternate" type="text/html" title="Welcome to My Development Blog" /><published>2024-01-01T00:00:00-06:00</published><updated>2024-01-01T00:00:00-06:00</updated><id>http://localhost:4000/blog/2024/01/01/welcome-post</id><content type="html" xml:base="http://localhost:4000/blog/2024/01/01/welcome-post/"><![CDATA[<p>Welcome to my development blog! Here I’ll be sharing:</p>
+
+<ul>
+  <li>Project updates and development insights</li>
+  <li>Technical tutorials and how-to guides</li>
+  <li>Learning resources and tips</li>
+  <li>Development best practices</li>
+</ul>
+
+<p>Stay tuned for more content!</p>]]></content><author><name></name></author><category term="blog" /><summary type="html"><![CDATA[Welcome to my development blog! Here I’ll be sharing:]]></summary></entry></feed>

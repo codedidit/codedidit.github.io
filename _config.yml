@@ -1,0 +1,85 @@
+title: Code Did It
+description: Software Developer | Open Source Enthusiast | Tech Explorer
+baseurl: ""
+url: "https://codedidit.github.io"
+
+# Build settings
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-include-cache
+
+# Site settings
+locale: "en-US"
+search: true
+masthead_title: "{ Code Did It }"
+
+# Theme settings
+minimal_mistakes_skin: "dark"
+atom_feed:
+  hide: true
+
+# Social Links
+author:
+  name: "Code Did It"
+  avatar: "/assets/images/avatar.jpg"
+  bio: "Crafting elegant solutions to complex problems"
+  location: "Digital Nomad"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/codedidit"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/yourprofile"
+
+# Jekyll settings
+permalink: /blog/:year/:month/:day/:title/
+sass:
+  style: compressed
+
+# Exclude files from being processed
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Include pages directory
+include:
+  - _pages
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:path/
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: false
+      share: true

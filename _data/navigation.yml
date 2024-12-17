@@ -1,0 +1,11 @@
+main:
+  - title: "💼 Projects"
+    url: /projects/
+  - title: "🎮 Demos"
+    url: /demos/
+  - title: "🚀 Skills"
+    url: /skills/
+  - title: "👤 About"
+    url: /about/
+  - title: "✍️ Blog"
+    url: /blog/

@@ -1,0 +1,23 @@
+<!-- Post reading time -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const posts = document.querySelectorAll('article');
+  posts.forEach(post => {
+    const text = post.innerText;
+    const wordCount = text.trim().split(/\s+/).length;
+    const readingTime = Math.ceil(wordCount / 200);
+    
+    const timeEl = document.createElement('span');
+    timeEl.className = 'reading-time';
+    timeEl.innerHTML = `${readingTime} min read`;
+    post.querySelector('header').appendChild(timeEl);
+  });
+});
+</script>
+
+<!-- Project interaction tracking -->
+<script>
+function trackProjectInteraction(projectId) {
+  // Add your analytics code here
+}
+</script>
